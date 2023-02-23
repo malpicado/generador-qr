@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador QR</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <script src="QRCodeLibrary.js"></script>
+    <div class="formulario">
+        <h1>Generador QR</h1>
+        <form>
+            <input type="url" name="sitioWeb" id="sitioWeb" placeholder="https://tusitioweb.com" required>
+            <div id="contenedorCodigoQr">
+                <div id="codigoQr" class="codigoQr"></div>
+                <button type="button" onclick="generarCodigoQr()">Generar QR</button>
+            </div>
+            
+            <img src="LOGO TRANSPARENTE.png" alt="malpicado">
+            <p>Hecho por Malpicado y el frasco de Twitch.<br>&copy;2023 Casi todos los derecho reservados.</p>
+        </form>
+    </div>
+    <script src="generator.js"></script>
+</body>
+
+</html>

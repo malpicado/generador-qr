@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+body{
+    background-color: lightblue;
+}
+
+.formulario{
+font-family: "ubuntu mono";
+max-width: 400px;
+margin: 100px auto;
+text-align: center;
+padding: 20px;
+background-color: #FDFDFD;
+border-radius: 20px;
+}
+
+.formulario img{
+    max-width: 100px;
+    filter: drop-shadow(0 0 0.2rem black);
+    margin: 40px 0 0;
+}
+
+.formulario h1{
+background: #018001;
+color: #F8EE1E;
+padding: 20px 0;
+font-weight: 400px;
+text-align: center;
+margin: -20px -20px -20px -20px;
+border-radius: 20px 20px 0 0;
+font-size: 35px;
+}
+
+.formulario input[type="text"], .formulario input[type="url"] {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 50px 0;
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 4%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.formulario button{
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+width: 150px;
+margin: 0 auto;
+padding: 3%;
+background-color: #018001;
+color: #F8EE1E;
+border: none;
+border-radius: 14px;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 1.5px;
+box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.95);
+transition: .3s all ease;
+}
+
+.formulario button:hover{
+    background-color: #F8EE1E;
+    color: rgb(1, 128, 1);
+}
+
+.codigoQr{
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.codigoQr img{
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(1, 128, 1, 0.75);
+    max-width: 800px;
+}
+
+.formulario p{
+    font-size: 10px;
+}
